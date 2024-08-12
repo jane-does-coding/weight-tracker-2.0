@@ -1,4 +1,5 @@
 import React from "react";
+import LogoutBtn from "./LogoutBtn";
 
 const HomePage = () => {
 	return (
@@ -28,6 +29,7 @@ const HomePage = () => {
 				>
 					Track
 				</a>
+				<LogoutBtn />
 			</div>
 		</div>
 	);
