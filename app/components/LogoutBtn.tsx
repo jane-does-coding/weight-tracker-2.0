@@ -5,7 +5,12 @@ import React from "react";
 const LogoutBtn = () => {
 	return (
 		<div>
-			<button onClick={() => signOut()}>Logout</button>
+			<button
+				className="w-[90vw] mx-auto bg-slate-700 hover:bg-slate-600 transition text-white flex items-center justify-center rounded-md py-1"
+				onClick={() => signOut()}
+			>
+				Logout
+			</button>
 		</div>
 	);
 };
