@@ -13,6 +13,9 @@ interface TrackProps {
 const Track = ({ entries }: any) => {
 	return (
 		<div className="p-4 space-y-4">
+			<h1 className="text-neutral-200 mx-auto text-center mt-4 mb-4 text-[2rem]">
+				Track
+			</h1>
 			{entries.map((entry: any) => (
 				<div
 					key={entry.id}
